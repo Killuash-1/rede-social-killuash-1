@@ -1,0 +1,17 @@
+.header_container h1{
+    color: var(--white-fixed);
+    font-size: 24px;
+    margin-left: 20px;
+    
+}
+.container_posts h2{
+padding-top: 5vh;
+}
+
+.container_name_post h3{
+padding-top: 15px;
+}
+
+.post_container span{
+    margin-top: 5px;
+}

@@ -1,0 +1,39 @@
+
+#input_post{
+    width: 93vw;
+    height: 10vh;
+    border: 2px solid #DEE2E6;
+    border-radius: 4px;
+    padding-left: 8px;
+}
+
+#textarea_post{
+    width: 90vw;
+    height: 20vh;
+    padding: 8px;
+    border: 2px solid #DEE2E6;
+    border-radius: 4px;
+    
+    }
+
+@media(min-width:768px){
+#input_post{
+    width: 47.7vw;
+    height: 10vh;
+    border: 2px solid #DEE2E6;
+    border-radius: 4px;
+    padding-left: 8px;
+}
+#textarea_post{
+width: 47vw;
+height: 20vh;
+padding: 8px;
+border: 2px solid #DEE2E6;
+border-radius: 4px;
+
+}
+}
+
+
+
+

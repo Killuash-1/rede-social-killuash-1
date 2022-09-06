@@ -1,0 +1,67 @@
+.header_container button {
+    color: #FFFFFF;
+    background: none;
+    border: none;
+    margin-right: 35px;
+}
+
+#button_post {
+    align-self: flex-end;
+    background: #DEE2E6;
+    border: 2px solid #DEE2E6;
+    border-radius: 4px;
+    width: 69px;
+    height: 38px;
+}
+
+.post_img_container button {
+    width: 89px;
+    height: 28px;
+    background: #4263EB;
+    border: 1px solid #4263EB;
+    border-radius: 2px;
+    margin-top: 12px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+
+
+#post_button {
+    background: #212529;
+    width: 92px;
+    height: 38px;
+    border: 2px solid #212529;
+    border-radius: 4px;
+    margin-left: 12px;
+    margin-right: 12px;
+    color: #FFFFFF;
+
+}
+
+.like_button {
+    background: url(/src/assets/heartBlack.png);
+    background-repeat: no-repeat;
+    background-position-x: 8px;
+    background-position-y: 8px;
+    border: none;
+    outline: none;
+    width: 92px;
+    height: 38px;
+    border-radius: 4px;
+    margin-right: 8px;
+
+}
+
+@media(min-width:768px){
+    .post_img_container button{
+        position: relative;
+        top: -3vh;
+        right: -14vw;
+    }
+    
+    
+    
+    
+    
+}

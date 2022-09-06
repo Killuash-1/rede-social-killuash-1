@@ -1,12 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/reset.css">
+    <link rel="stylesheet" href="/src/styles/component.css">
+    <link rel="stylesheet" href="/src/styles/loginAndRegister/login.css">
+    <link rel="stylesheet" href="/src/styles/loginAndRegister/loginInput.css">
+    <link rel="stylesheet" href="/src/styles/loginAndRegister/loginButton.css">
+    <link rel="stylesheet" href="/src/styles/loginAndRegister/loginText.css">
+
+    <script type="module" src="../src/scripts/index.mjs"></script>
+    <script type="module" src="/src/scripts/models/login.mjs"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script defer type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
     <title>Rede Social</title>
 </head>
+
 <body>
-    
+    <header>
+        <div class="header_container">
+            <h1>TechPosters</h1>
+            <div class="div_header_button">
+                <button>Login</button>
+                <button>Registro</button>
+            </div>
+        </div>
+        
+       
+    </header>
+
+    <div class="container">
+
+        <section class="container_login">
+
+            <h2>Login</h2>
+            <div class="login_input_container">
+                
+                <input type="email" placeholder="Email" id="email_input">
+                <input type="password" placeholder="Senha" id="password_input">
+
+            </div>
+            <div class="login_button_container">
+                <button class="login_button"> Entrar </button>
+                <a href="#">Ainda não possui cadastro?</a>
+                <button>Ir para a pagina de cadastro</button>
+            </div>
+
+        </section>
+
+
+        <section class="container_register">
+            <div class="register_top_container">
+                <h2>Cadastro</h2>
+                <button>Voltar</button>
+            </div>
+
+            <div class="register_input_container">
+                <input type="text" placeholder="Digite seu nome"        required="true"      id="input_username_register">
+                <input type="email" placeholder="Digite seu email"      required="true"      id="input_Email_register">
+                <input type="password" placeholder="Digite sua Senha"   required="true"      id="input_password_register">
+                <input type="text" placeholder="Qual o seu trabalho?"   required="true"      id="input_job_register">
+                <input type="url" placeholder="Insira uma foto de meme" required="true"      id="input_url_register">
+            </div>
+
+            <div class="register_bottom_container">
+                <button class="register_button"> Registrar </button>
+                <a href="#">Ja possui login?</a>
+                <button>Ir para a Pagina de Login</button>
+            </div>
+
+        </section>
+    </div>
 </body>
+
 </html>

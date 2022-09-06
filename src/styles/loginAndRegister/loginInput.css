@@ -1,0 +1,17 @@
+.login_input_container input{
+    background: var(--white-fixed);
+    width: 80vw;
+    max-width: 413px;
+    padding: 16px 20px;
+    border: 1px solid var(--gray-4);
+    border-radius: 4px;
+}
+
+.register_input_container input{
+    background: var(--white-fixed);
+    width: 79vw;
+    max-width: 413px;
+    padding: 16px 20px;
+    border: 1px solid var(--gray-4);
+    border-radius: 4px;
+}

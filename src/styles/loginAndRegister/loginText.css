@@ -1,0 +1,30 @@
+.header_container h1{
+    color: var(--white-fixed);
+    font-size: 24px;
+    margin-left: 10px;
+    
+}
+
+.container_login >h2{
+    font-weight: var(--font-weight-1);
+    font-size: var(--line-height-3);
+    margin: 16px 0 0 18px;
+}
+
+.login_button_container >a{
+    font-size: var( --line-height-4);
+
+    text-align: center;
+}
+
+.register_top_container h2{
+    font-weight: var(--font-weight-1);
+    font-size: var(--line-height-3);
+    text-align: center;
+}
+
+.register_bottom_container a{
+    font-size: var( --line-height-4);
+    font-weight: var(--font-weight-3);
+    text-align: center;
+}

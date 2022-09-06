@@ -1,0 +1,218 @@
+.header_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 8vh;
+
+
+    background: var(--gray-0)
+}
+
+
+
+.user_container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3vh;
+    width: 100vw;
+    height: 40vh;
+
+}
+
+.user_img_container {
+
+    width: 75vw;
+    margin-bottom: 12px;
+    gap: 10px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.user_info_container {
+    padding-left: 14px;
+}
+
+.user_post_container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    gap: 8px;
+    height: 180px;
+    width: 95vw;
+}
+
+.suggestion_section_container {
+
+    width: 100vw;
+    margin-bottom: 16px;
+}
+
+.container_suggestion_text {
+    padding-left: 12px;
+    height: 8vh;
+}
+
+.container_post_suggestion {
+
+    display: flex;
+    flex-direction: row;
+    padding-left: 12px;
+    gap: 10px;
+    width: 100vw;
+    height: 20vh;
+    overflow-x: auto;
+}
+
+.post_img_container {
+    width: 50vw;
+    height: 20vh;
+
+
+}
+
+.post_container {
+    width: 50vw;
+    display: flex;
+}
+
+.container_name_post {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 12vh;
+}
+
+.container_posts_section {
+
+    padding-top: 8px;
+    padding-left: 12px;
+
+}
+
+.container_posts_ul {
+    margin-top: 50px;
+    width: 90vw;
+    height: 100vh;
+
+}
+
+.container_posts_li {
+
+    height: 40vh;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.container_profile_posts {
+
+    display: flex;
+    align-items: center;
+    height: 8vh;
+    gap: 8px;
+}
+
+.container_posts_text {
+    margin-left: 24px;
+
+}
+
+.container_posts {
+
+    margin-bottom: 24px;
+
+}
+
+
+@media(min-width: 768px) {
+
+
+
+    .header_container {
+        display: flex;
+        width: 100vw;
+    }
+
+    .suggestion_section_container {
+        position: absolute;
+        right: 0;
+        top: 15vh;
+
+        width: 30vw;
+        height: 75vh;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .user_container {
+        width: 55vw;
+        height: 50vh;
+        margin-bottom: 10vh;
+    }
+
+
+    .user_img_container {
+        width: 50vw;
+        padding-left: 24px;
+        margin-left: 6vw;
+
+    }
+
+    .post_container {
+        width: 12vw;
+
+
+    }
+
+    .user_info_container {
+        width: 25vw;
+        padding-left: 40px;
+    }
+
+    .user_post_container {
+        width: 45vw;
+        height: 35vh;
+
+        margin-left: 7vw;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .container_posts_section {
+        width: 50vw;
+        padding-left: 7vw;
+    }
+
+    .container_post_suggestion {
+        flex-direction: column;
+        width: 30vw;
+        height: 95%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+
+    }
+
+    .post_container {
+        position: relative;
+        top: -89px;
+        right: -61px;
+
+    }
+
+    .container_posts_ul {
+
+        width: 50%;
+        margin: 0;
+    }
+
+    .post_img_container {
+        flex-direction: row;
+        width: 80%;
+
+    }
+}

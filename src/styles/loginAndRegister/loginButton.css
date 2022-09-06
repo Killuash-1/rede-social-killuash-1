@@ -1,0 +1,59 @@
+.div_header_button button {
+    font-weight: var(--font-weight-3);
+    font-size: var(--line-height-4);
+    background: var(--gray-2);
+    height: 32px;
+   
+    padding: 8px;
+    border-radius: 4px;
+
+}
+
+.login_button_container button:nth-child(1) {
+    background: var(--brand-1);
+    border: 2px solid var(--brand-1);
+    border-radius: 4px;
+    padding: 0px 12px;
+    height: 5vh;
+    font-weight: 600;
+    color: var(--white-fixed);
+
+}
+
+.login_button_container button {
+    background: var(--white-fixed);
+    border: 2px solid var(--gray-0);
+    height: 5vh;
+    border-radius: 4px;
+    padding: 0px 12px;
+    font-weight: 600;
+}
+
+
+.register_top_container button {
+    height: 30px;
+    width: 60px;
+    border: 1px solid var(--gray-0);
+    background: var(--white-fixed);
+
+}
+
+.register_bottom_container button:nth-child(1) {
+    background: var(--brand-1);
+    border: 2px solid var(--brand-1);
+    border-radius: 4px;
+    padding: 0px 12px;
+    height: 5vh;
+    font-weight: 600;
+    color: var(--white-fixed);
+
+}
+
+.register_bottom_container button {
+    background: var(--white-fixed);
+    border: 2px solid var(--gray-0);
+    height: 5vh;
+    border-radius: 4px;
+    padding: 0px 12px;
+    font-weight: 600;
+}

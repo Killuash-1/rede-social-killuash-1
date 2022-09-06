@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+:root{
+    --brand-1:#4263EB;
+    --brand-2:#364FC7;
+
+    --gray-0:#0A0C0D;
+    --gray-1:#212529;
+    --gray-2:#495057;
+    --gray-3:#868E96;
+    --gray-4:#DEE2E6;
+    --gray-5:#F8F9FA;
+
+    --gray-opacity-1: rgba(33,37,41,0.5);
+    --white-fixed: #FFFFFF;
+
+    --like: #D7443E
+
+    --font-title-1: 28px;
+    --font-title-2: 20px;
+    --font-text-1: 16px;
+    --font-text-2: 14px;
+
+    --font-weight-1: 700;
+    --font-weight-2: 500;
+    --font-weight-3: 400;
+
+    --line-height-1: 40px;
+    --line-height-2: 24px;
+    --line-height-3: 28px;
+    --line-height-4: 16px;
+    
+}
+
+body{
+    font-family: sans-serif;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+h2{
+   font-size: var(--font-title-2); 
+}
+
+span{
+    font-size: var(--font-text-2);
+}
+p{
+    font-size: var(--font-text-2);
+    padding-top: 10px;
+}
+button{
+    cursor: pointer;
+}
