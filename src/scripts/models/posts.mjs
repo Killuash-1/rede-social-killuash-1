@@ -72,5 +72,5 @@ class show {
     });
   }
 }
- Posts.likes()
+
 show.posts(await Api.postUsers());

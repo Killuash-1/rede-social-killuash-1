@@ -17,6 +17,12 @@
 
 }
 
+.login_off{
+display: none;
+}
+.register_on{
+    display: contents;
+}
 .container {
     width: 100vw;
     height: 100vh;
@@ -62,6 +68,8 @@
     
 
 }
+
+
 
 .container_register {
     display: flex;

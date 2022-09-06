@@ -17,8 +17,17 @@ class Login{
     })
 
   }
+
+  static registerChange(){
+    const buttonLogin = querySelector(".login_button_container")
+    const buttonRegister =querySelector('.register_button_container')
+
+
+    buttonLogin.addEventListener('click', () => {
+      console.log(buttonLogin);
+    })
+  }
 }
 
 Login.user()
-
-Api.followUser()
+Login.registerChange()

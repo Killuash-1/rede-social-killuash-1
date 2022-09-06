@@ -19,19 +19,17 @@ export class Api {
     })
       .then((res) => res.json())
       .then((res) => {
-         if(res.password || res.email){
-          Toast.create("Email ou Senha Invalidos.", "gray")
-          
-
-        
-        window.location.replace("/src/html/homePage.html");
-        }else{
+         if(res.token || res.uuid){
+          Toast.create("Bem Vindo.", "green")
           localStorage.setItem("@kenzieSocialmedia:token", res.token);
           localStorage.setItem("@kenzieSocialMedia:user_uuid", res.user_uuid);
-        
+          window.location.replace("/src/html/homePage.html");
+          
+        }else{
+          Toast.create("Email ou Senha Invalidos.", "gray")
            }
           });
-      // .catch((err) => err);
+   
     return loginUser;
   }
 

@@ -9,8 +9,16 @@ class render{
     }
 }
 class HomePagePosts{
+
+    static token = localStorage.getItem("@kenzieSocialmedia:token");
+    static verfiy(){
+        if(!this.token){
+            window.location.replace('/index.html')
+        }
+
+    }
     static async pages (data){
-       console.log(data)
+      
         
         const containerSuggestion = document.querySelector(".container_post_suggestion")
         const divPost = document.createElement('div')
