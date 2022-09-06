@@ -10,11 +10,9 @@ class render{
 }
 class HomePagePosts{
 
-    static token = localStorage.getItem("@kenzieSocialmedia:token");
+   
     static verfiy(){
-        if(!this.token){
-            window.location.replace('/index.html')
-        }
+        
 
     }
     static async pages (data){
@@ -43,7 +41,7 @@ class HomePagePosts{
         buttonPost.innerHTML = "Seguir"
 
 
-        containerSuggestion.append(divImg, divPost  )
+        containerSuggestion.append(divImg, divPost )
         divImg.append(imgPost,buttonPost)
         divPost.append(divPostName)
         divPostName.append(h3Post,spanPost)

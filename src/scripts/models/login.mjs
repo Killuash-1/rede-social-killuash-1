@@ -19,13 +19,26 @@ class Login{
   }
 
   static registerChange(){
-    const buttonLogin = querySelector(".login_button_container")
-    const buttonRegister =querySelector('.register_button_container')
-
+    const buttonLogin =document.querySelector(".button_login")
+    const buttonRegister =document.querySelector('.button_register')
+    const containerLogin =document.querySelector('.container_login')
+    const containerRegister =document.querySelector('.container_register')
 
     buttonLogin.addEventListener('click', () => {
-      console.log(buttonLogin);
-    })
+      if(containerLogin.classList.contains("container_login")){
+      containerLogin.classList.toggle("login_off")
+      containerRegister.classList.toggle("register_on")
+    }   
+    
+  })
+  buttonRegister.addEventListener('click', () => {
+    if(containerRegister.classList.contains("container_register")){
+    containerLogin.classList.toggle("login_off")
+    containerRegister.classList.toggle("register_on")
+
+    }
+  })
+    
   }
 }
 

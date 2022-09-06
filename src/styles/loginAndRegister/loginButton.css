@@ -3,9 +3,11 @@
     font-size: var(--line-height-4);
     background: var(--gray-2);
     height: 32px;
-   
-    padding: 8px;
+    width: 90px;
+   max-width: 90px;
+    align-items: center;
     border-radius: 4px;
+    
 
 }
 

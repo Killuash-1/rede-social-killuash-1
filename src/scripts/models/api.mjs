@@ -20,10 +20,13 @@ export class Api {
       .then((res) => res.json())
       .then((res) => {
          if(res.token || res.uuid){
-          Toast.create("Bem Vindo.", "green")
+          Toast.create("Bem Vindo.", "blue")
           localStorage.setItem("@kenzieSocialmedia:token", res.token);
           localStorage.setItem("@kenzieSocialMedia:user_uuid", res.user_uuid);
-          window.location.replace("/src/html/homePage.html");
+          setTimeout(() => {
+            window.location.replace("/src/html/homePage.html");
+          }, 5000);
+          
           
         }else{
           Toast.create("Email ou Senha Invalidos.", "gray")
@@ -40,22 +43,23 @@ export class Api {
       body: JSON.stringify(data),
     })
       .then((res) => res.json)
-      .then((res) => console.log(res))
+      .then((res) => res)
       .catch((err) => console.error(err));
 
     return newUser;
   }
 
   static async users() {
-    const user = await fetch(`${this.url}/users/?limit=20&offset=500`, {
+    const user = await fetch(`${this.url}/users/?limit=20&offset=10`, {
       method: "GET",
       headers: this.headersAfter,
     })
       .then((res) => res.json())
       .then((res) => res)
-      .catch((err) => console.error(err));
+      
 
-    return user;
+     return user
+  
   }
 
   static async oneUser() {

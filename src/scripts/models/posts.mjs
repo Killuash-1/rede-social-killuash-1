@@ -2,7 +2,7 @@ import { Api } from "./api.mjs";
 
 class Posts {
   static users(data) {
-    console.log(data);
+   
 
     const sectionPost = document.querySelector(".container_posts_ul");
     const liPost         = document.createElement("li");

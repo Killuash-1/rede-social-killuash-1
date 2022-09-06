@@ -1,7 +1,7 @@
 .header_container h1{
     color: var(--white-fixed);
-    font-size: 24px;
-    margin-left: 10px;
+    font-size: 20px;
+    margin-left: 3vw;
     
 }
 
@@ -11,7 +11,7 @@
     margin: 16px 0 0 18px;
 }
 
-.login_button_container >a{
+.login_button_container >p{
     font-size: var( --line-height-4);
 
     text-align: center;

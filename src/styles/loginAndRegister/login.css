@@ -9,20 +9,18 @@
 }
 
 .div_header_button {
-    width: 45vw;
-    height: 13vh;
+    width: 29vw;
+    height: 7vh;
+    margin-right: 2vw;
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
+    align-items: center
+   
 
 }
 
-.login_off{
-display: none;
-}
-.register_on{
-    display: contents;
-}
+
+
 .container {
     width: 100vw;
     height: 100vh;
@@ -115,4 +113,9 @@ display: none;
     justify-content: space-evenly;
 }
 
-
+.login_off{
+display: none;
+}
+.register_on{
+    display: flex;
+}

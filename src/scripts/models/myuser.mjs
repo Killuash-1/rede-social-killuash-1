@@ -5,7 +5,7 @@ class UserPost {
 
     
     static async post(data){
-        console.log(data)
+        
         const sectionUser = document.querySelector(".user_container")
         const divUser = document.createElement("div")
         const imgUser = document.createElement("img")
